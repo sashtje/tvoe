@@ -1,0 +1,87 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+
+.tvCard {
+  display: block;
+  color: var(--tv-card-color);
+  text-decoration: none;
+
+  .coverWrapper {
+    position: relative;
+    padding-bottom: 150%;
+
+    .cover {
+      border-radius: 20px;
+      display: block;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .rating {
+      position: absolute;
+      top: 28px;
+      left: 28px;
+    }
+  }
+
+  .coverWrapper::before {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    content: "";
+    width: calc(100% + 8px);
+    height: calc(100% + 8px);
+    background: var(--cover-wrapper-bg-color);
+    border-radius: 24px;
+    z-index: -1;
+  }
+
+  .coverWrapper::after {
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    content: "";
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    background: var(--gradient-blue-violet-light);
+    border-radius: 28px;
+    z-index: -2;
+    opacity: 0;
+    transition: opacity var(--transition);
+  }
+
+  &:hover {
+    .coverWrapper::after {
+      opacity: 1;
+    }
+  }
+
+  .movieTitle {
+    margin-top: 20px;
+    @include sliders-font;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  &.s {
+    .coverWrapper {
+      .cover {
+        border-radius: 12px;
+      }
+    }
+
+    .rating {
+      position: absolute;
+      top: 12px;
+      left: 12px;
+    }
+
+    .coverWrapper::before {
+      border-radius: 16px;
+    }
+
+    .coverWrapper::after {
+      border-radius: 20px;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.slider {
+  padding: 25px 65px 25px var(--general-margin-left);
+  margin: 0 0 0 calc(-1 * var(--general-margin-left));
+
+  @media screen and ((max-width: 945px) or (max-height: 700px)) {
+    padding-right: 20px;
+  }
+}

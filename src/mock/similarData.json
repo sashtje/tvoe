@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/movie-page/similar/similar1.jpg",
+    "movieCoverAlt": "8 подруг Оушена, обложка",
+    "movieRating": 9.1
+  },
+  {
+    "id": "2",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/movie-page/similar/similar2.jpg",
+    "movieCoverAlt": "Энканто, обложка",
+    "movieRating": 9.1
+  },
+  {
+    "id": "3",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/movie-page/similar/similar3.jpg",
+    "movieCoverAlt": "Красное уведомление, обложка",
+    "movieRating": 9.1
+  },
+  {
+    "id": "4",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/movie-page/similar/similar4.png",
+    "movieCoverAlt": "Синий жук, обложка",
+    "movieRating": 9.1
+  },
+  {
+    "id": "5",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/movie-page/similar/similar5.jpg",
+    "movieCoverAlt": "Мэр Кингстауна, обложка",
+    "movieRating": 9.1
+  },
+  {
+    "id": "6",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/movie-page/similar/similar6.png",
+    "movieCoverAlt": "Пять ночей с Фредди, обложка",
+    "movieRating": 9.1
+  },
+  {
+    "id": "7",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/movie-page/similar/similar7.png",
+    "movieCoverAlt": "Балерина, обложка",
+    "movieRating": 9.1
+  }
+]

@@ -1,0 +1,83 @@
+.navigation {
+  position: absolute;
+  top: 200px;
+  left: 55px;
+
+  @media screen and (max-width: 1400px) {
+    left: 20px;
+  }
+
+  @media screen and ((max-width: 945px) or (max-height: 700px)) {
+    position: fixed;
+    top: unset;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 28px;
+    background: var(--nav-bg-color);
+    border-radius: 10px;
+    box-shadow: 0 0 30px var(--nav-box-shadow-color);
+    z-index: 10;
+    padding: 5px;
+  }
+
+  @media screen and (max-width: 650px) {
+    gap: 10px;
+  }
+
+  @media screen and (max-width: 340px) {
+    gap: 0;
+  }
+
+  a {
+    display: block;
+  }
+
+  svg {
+    display: block;
+    color: var(--nav-icons-color);
+    transition: color var(--transition);
+    width: 44px;
+    height: 44px;
+
+    @media screen and (max-width: 650px) {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  svg:hover {
+    color: var(--nav-icons-hover-color);
+  }
+
+  .linksList {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 28px 0;
+
+    @media screen and ((max-width: 945px) or (max-height: 700px)) {
+      flex-direction: row;
+      margin: 0;
+    }
+
+    @media screen and (max-width: 650px) {
+      gap: 10px;
+    }
+
+    @media screen and (max-width: 340px) {
+      gap: 0;
+    }
+  }
+
+  .link {
+    padding: 5px;
+
+    &.active {
+      svg {
+        color: var(--nav-icons-hover-color);
+      }
+    }
+  }
+}

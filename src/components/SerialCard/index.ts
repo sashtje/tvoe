@@ -1,0 +1,1 @@
+export { SerialCard } from "./SerialCard";

@@ -1,0 +1,48 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+
+.serialCard {
+  cursor: pointer;
+  display: block;
+  text-align: start;
+  @include sliders-secondary-font;
+  color: var(--serial-card-color);
+  text-decoration: none;
+  transition: var(--transition);
+  width: 28.3vw;
+
+  @media screen and (max-width: 1500px) {
+    width: 300px;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+  }
+
+  .coverWrapper {
+    position: relative;
+    width: 28.3vw;
+    padding-bottom: 16vw;
+
+    @media screen and (max-width: 1500px) {
+      width: 300px;
+      padding-bottom: 170px;
+    }
+  }
+
+  .cardCover {
+    display: block;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .cardTitle {
+    color: var(--serial-card-title-color);
+    @include sliders-font;
+    margin: 40px 0 12px 0;
+
+    @media screen and (max-width: 1400px) {
+      margin-top: 20px;
+    }
+  }
+}

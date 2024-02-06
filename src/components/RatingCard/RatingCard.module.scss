@@ -1,0 +1,52 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+
+.ratingCard {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+
+  .wrapper {
+    position: relative;
+    width: 20.74vw;
+    padding-bottom: 31vw;
+
+    @media screen and ((max-width: 945px) or (max-height: 700px)) {
+      width: 200px;
+      padding-bottom: 300px;
+    }
+  }
+
+  .cover {
+    border-radius: 20px;
+    transition: var(--transition) ease-out;
+    will-change: transform;
+  }
+
+  .index {
+    @include top10-numbers-font;
+    color: var(--rating-index-color);
+    background: var(--gradient-blue-violet-light);
+    background-clip: text;
+    -webkit-text-stroke: 4px transparent;
+    margin-right: -80px;
+    transition: var(--transition) ease-out;
+
+    @media screen and (max-width: 650px) {
+      margin-right: -40px;
+    }
+
+    @media screen and (max-width: 400px) {
+      margin-right: -20px;
+    }
+  }
+
+  &:hover {
+    .cover {
+      transform: scale(1.03);
+    }
+
+    .index {
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

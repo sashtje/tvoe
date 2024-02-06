@@ -1,0 +1,100 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+
+.btn {
+  cursor: pointer;
+  display: block;
+  color: var(--btn-text-color);
+  text-decoration: none;
+
+  svg {
+    display: block;
+    color: var(--nav-icons-color);
+    transition: color var(--transition);
+  }
+
+  &:hover svg {
+    color: var(--nav-icons-hover-color);
+  }
+}
+
+.nav {
+  padding: 5px;
+}
+
+.filled,
+.default {
+  position: relative;
+  display: block;
+  padding: 24px 32px;
+  border-radius: 16px;
+  @include btns-font;
+
+  @media screen and (max-width: 650px) {
+    padding: 12px 20px;
+  }
+
+  @media screen and (max-width: 300px) {
+    padding: 12px 10px;
+  }
+}
+
+.filled,
+.default {
+  &::before,
+  &::after {
+    position: absolute;
+    content: "";
+    display: block;
+    border-radius: 16px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transition: opacity var(--transition);
+  }
+
+  &:hover {
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.filled {
+  &::before {
+    background: var(--button-filled-bg-color);
+    opacity: 1;
+  }
+
+  &::after {
+    background: var(--button-filled-hover-bg-color);
+    opacity: 0;
+  }
+}
+
+.default {
+  &::before {
+    background: var(--button-default-bg-color);
+
+    backdrop-filter: blur(10px);
+    opacity: 1;
+  }
+
+  &::after {
+    background: var(--button-default-hover-bg-color);
+
+    backdrop-filter: blur(10px);
+    opacity: 0;
+  }
+}
+
+.genre {
+  display: inline-block;
+  border-radius: 5px;
+  transition: var(--transition);
+
+  &:hover {
+    background: var(--button-genre-hover-bg-color);
+  }
+}

@@ -1,0 +1,175 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+@import "@/shared/lib/scss/mixins.scss";
+
+.home {
+  padding-bottom: 180px;
+
+  @media screen and (max-width: 400px) {
+    padding-bottom: 80px;
+  }
+
+  .bgImgWrapper {
+    position: absolute;
+    width: 65%;
+    padding-bottom: 42%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+
+    @media screen and (max-width: 1400px) {
+      width: 100%;
+      @media (orientation: portrait) {
+        padding-bottom: 50vh;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      content: "";
+      background: linear-gradient(
+          180deg,
+          var(--color-white-op-0) 79.93%,
+          var(--color-09090c) 100%
+        ),
+        linear-gradient(
+          90deg,
+          var(--color-09090c) 0%,
+          var(--color-white-op-0) 51.76%
+        );
+      filter: drop-shadow(0px 4px 4px var(--color-black-op-25));
+
+      @media screen and (max-width: 945px) {
+        background: linear-gradient(
+          180deg,
+          var(--color-white-op-0) 79.93%,
+          var(--color-09090c) 100%
+        );
+      }
+    }
+
+    .bgImg {
+      object-fit: cover;
+      object-position: right top;
+
+      @media screen and (max-width: 420px) {
+        @media (orientation: portrait) {
+          object-position: 75% top;
+        }
+      }
+    }
+  }
+
+  .main {
+    width: 47%;
+    margin: 16% auto 0 auto;
+    @include flex-column;
+    gap: 35px;
+
+    @media screen and (max-width: 1400px) {
+      width: 100%;
+      margin: 30% 0 0 0;
+      padding: 0 120px;
+    }
+
+    @media screen and (max-width: 740px) {
+      margin: 30vh 0 0 0;
+      padding: 0 20px;
+    }
+
+    .title {
+      position: relative;
+      width: 65%;
+      padding-bottom: 26%;
+
+      @media screen and (max-width: 1400px) {
+        width: 25vw;
+        padding-bottom: 10vw;
+        align-self: flex-start;
+      }
+
+      @media screen and (max-width: 740px) {
+        width: 208px;
+        padding-bottom: 84px;
+      }
+
+      .titleImg {
+        object-fit: contain;
+      }
+    }
+
+    .subtitle {
+      text-align: center;
+      @include subtitle-font;
+    }
+
+    .controls {
+      display: flex;
+      gap: 25px;
+
+      @media screen and (max-width: 400px) {
+        gap: 10px;
+      }
+
+      .btn {
+        width: 243px;
+
+        @media screen and (max-width: 650px) {
+          width: unset;
+        }
+      }
+    }
+  }
+
+  .title {
+    @include section-title-font;
+  }
+
+  .newItems,
+  .top10 {
+    margin-left: var(--general-margin-left);
+  }
+
+  .newItems {
+    margin-top: 95px;
+
+    @media screen and ((max-width: 945px) or (max-height: 700px)) {
+      margin-top: 65px;
+    }
+
+    @media screen and (max-width: 1400px) {
+      margin-top: 40px;
+    }
+  }
+
+  .top10 {
+    margin-top: 85px;
+
+    @media screen and ((max-width: 945px) or (max-height: 700px)) {
+      margin-top: 55px;
+    }
+
+    @media screen and (max-width: 1400px) {
+      margin-top: 40px;
+    }
+
+    .titleHighlighted {
+      text-transform: uppercase;
+      color: var(--top10-text-color);
+      background: var(--top10-text-bg-color);
+      background-clip: text;
+      -webkit-text-stroke: 4px transparent;
+      @include top10-font;
+      padding-right: 5px;
+    }
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}

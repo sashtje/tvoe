@@ -1,0 +1,25 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+
+.infoBlock {
+  @include details-font;
+
+  .title {
+    color: var(--info-title-color);
+  }
+
+  .data {
+    margin-top: 16px;
+  }
+
+  &.chips {
+    .data {
+      @include input-font;
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: inline-flex;
+      min-width: 140px;
+      background: var(--chips-bg-color);
+      backdrop-filter: blur(10px);
+    }
+  }
+}

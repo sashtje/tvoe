@@ -1,0 +1,87 @@
+@mixin top10-numbers-font {
+  font: {
+    size: var(--fz-360px);
+    style: italic;
+    weight: 900;
+  }
+}
+
+@mixin error-code-font {
+  font: {
+    size: var(--fz-208px);
+    style: normal;
+    weight: 500;
+  }
+}
+
+@mixin top10-font {
+  font: {
+    size: var(--fz-52px);
+    style: italic;
+    weight: 900;
+  }
+}
+
+@mixin subtitle-font {
+  font: {
+    size: var(--fz-40px);
+    style: normal;
+    weight: 500;
+  }
+}
+
+@mixin section-title-font {
+  font: {
+    size: var(--fz-40px);
+    style: normal;
+    weight: 700;
+  }
+}
+
+@mixin description-font {
+  font: {
+    size: var(--fz-30px);
+    style: normal;
+    weight: 400;
+  }
+}
+
+@mixin btns-font {
+  font: {
+    size: var(--fz-30px);
+    style: normal;
+    weight: 500;
+  }
+}
+
+@mixin details-font {
+  font: {
+    size: var(--fz-28px);
+    style: normal;
+    weight: 400;
+  }
+}
+
+@mixin sliders-font {
+  font: {
+    size: var(--fz-28px);
+    style: normal;
+    weight: 500;
+  }
+}
+
+@mixin sliders-secondary-font {
+  font: {
+    size: var(--fz-24px);
+    style: normal;
+    weight: 400;
+  }
+}
+
+@mixin input-font {
+  font: {
+    size: var(--fz-24px);
+    style: normal;
+    weight: 500;
+  }
+}

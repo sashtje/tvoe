@@ -1,0 +1,50 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+@import "@/shared/lib/scss/mixins.scss";
+
+.rating {
+  @include flex;
+
+  &.default {
+    background: var(--rating-bg-color-default);
+  }
+
+  &.filled {
+    background: var(--rating-bg-color-filled);
+  }
+
+  &.s {
+    @include input-font;
+    width: 59px;
+    height: 41px;
+    border-radius: 8px;
+
+    @media screen and (max-width: 1400px) {
+      width: 50px;
+      height: 36px;
+      border-radius: 4px;
+    }
+
+    @media screen and (max-width: 400px) {
+      width: 45px;
+      height: 30px;
+    }
+  }
+
+  &.l {
+    @include sliders-font;
+    width: 75px;
+    height: 48px;
+    border-radius: 12px;
+
+    @media screen and (max-width: 1400px) {
+      width: 70px;
+      height: 40px;
+    }
+
+    @media screen and (max-width: 650px) {
+      width: 50px;
+      height: 30px;
+      border-radius: 8px;
+    }
+  }
+}

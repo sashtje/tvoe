@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/new/blue-bug.png",
+    "movieCoverAlt": "Синий жук, обложка",
+    "movieRating": 10,
+    "movieTitle": "Синий жук"
+  },
+  {
+    "id": "2",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/new/home-game.png",
+    "movieCoverAlt": "Домашняя игра, обложка",
+    "movieRating": 6.9,
+    "movieTitle": "Домашняя игра"
+  },
+  {
+    "id": "3",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/new/salute.jpg",
+    "movieCoverAlt": "Салют 7, обложка",
+    "movieRating": 5.8,
+    "movieTitle": "Салют 7"
+  },
+  {
+    "id": "4",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/new/catch-me.jpg",
+    "movieCoverAlt": "Поймай меня, если сможешь, обложка",
+    "movieRating": 7.0,
+    "movieTitle": "Поймай меня, если сможешь"
+  },
+  {
+    "id": "5",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/new/fabelman.webp",
+    "movieCoverAlt": "Фабельманы, обложка",
+    "movieRating": 6.3,
+    "movieTitle": "Фабельманы"
+  }
+]

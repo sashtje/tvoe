@@ -1,0 +1,85 @@
+{
+  "1": [
+    {
+      "id": "1",
+      "serialCoverSrc": "/movie-page/seasons/episode1.png",
+      "serialCoverAlt": "episode 1, обложка",
+      "seriesNumber": "1 серия",
+      "seriesDuration": "43 минуты"
+    },
+    {
+      "id": "2",
+      "serialCoverSrc": "/movie-page/seasons/episode2.jpg",
+      "serialCoverAlt": "episode 2, обложка",
+      "seriesNumber": "2 серия",
+      "seriesDuration": "41 минута"
+    },
+    {
+      "id": "3",
+      "serialCoverSrc": "/movie-page/seasons/episode3.jpg",
+      "serialCoverAlt": "episode 3, обложка",
+      "seriesNumber": "3 серия",
+      "seriesDuration": "38 минут"
+    },
+    {
+      "id": "4",
+      "serialCoverSrc": "/movie-page/seasons/episode4.jpg",
+      "serialCoverAlt": "episode 4, обложка",
+      "seriesNumber": "4 серия",
+      "seriesDuration": "43 минуты"
+    }
+  ],
+  "2": [
+    {
+      "id": "1",
+      "serialCoverSrc": "/movie-page/seasons/episode3.jpg",
+      "serialCoverAlt": "episode 1, обложка",
+      "seriesNumber": "1 серия",
+      "seriesDuration": "38 минут"
+    }
+  ],
+  "3": [
+    {
+      "id": "1",
+      "serialCoverSrc": "/movie-page/seasons/episode2.jpg",
+      "serialCoverAlt": "episode 1, обложка",
+      "seriesNumber": "1 серия",
+      "seriesDuration": "41 минута"
+    },
+    {
+      "id": "2",
+      "serialCoverSrc": "/movie-page/seasons/episode4.jpg",
+      "serialCoverAlt": "episode 2, обложка",
+      "seriesNumber": "2 серия",
+      "seriesDuration": "43 минуты"
+    },
+    {
+      "id": "3",
+      "serialCoverSrc": "/movie-page/seasons/episode1.png",
+      "serialCoverAlt": "episode 3, обложка",
+      "seriesNumber": "3 серия",
+      "seriesDuration": "43 минуты"
+    },
+    {
+      "id": "4",
+      "serialCoverSrc": "/movie-page/seasons/episode3.jpg",
+      "serialCoverAlt": "episode 4, обложка",
+      "seriesNumber": "4 серия",
+      "seriesDuration": "38 минут"
+    },
+    {
+      "id": "5",
+      "serialCoverSrc": "/movie-page/seasons/episode2.jpg",
+      "serialCoverAlt": "episode 5, обложка",
+      "seriesNumber": "5 серия",
+      "seriesDuration": "41 минута"
+    },
+    {
+      "id": "6",
+      "serialCoverSrc": "/movie-page/seasons/episode1.png",
+      "serialCoverAlt": "episode 6, обложка",
+      "seriesNumber": "6 серия",
+      "seriesDuration": "43 минуты"
+    }
+  ]
+}

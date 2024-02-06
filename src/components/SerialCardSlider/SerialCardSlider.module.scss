@@ -1,0 +1,54 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+
+.titleBlock {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+
+  @media screen and (max-width: 350px) {
+    gap: 20px;
+  }
+}
+
+.seasonsBtnsWrapper {
+  display: flex;
+  gap: 20px;
+
+  .seasonsBtn {
+    display: none;
+  }
+
+  .seasonsBtn:checked + .seasonsLabel {
+    color: var(--label-active-color);
+    background: var(--label-active-bg-color);
+    align-items: center;
+
+    &:hover {
+      color: var(--label-active-hover-color);
+    }
+  }
+
+  .seasonsLabel {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: var(--label-color);
+    background: var(--label-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    @include input-font;
+    letter-spacing: 0.1px;
+    transition: var(--transition);
+
+    @media screen and (max-width: 350px) {
+      width: 32px;
+      height: 32px;
+    }
+
+    &:hover {
+      color: var(--label-hover-color);
+    }
+  }
+}

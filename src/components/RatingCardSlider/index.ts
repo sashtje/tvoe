@@ -1,0 +1,1 @@
+export { RatingCardSlider } from "./RatingCardSlider";

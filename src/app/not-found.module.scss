@@ -1,0 +1,25 @@
+@import "@/shared/lib/scss/fonts-mixins.scss";
+@import "@/shared/lib/scss/mixins.scss";
+
+.notFound {
+  @include flex-column;
+  color: var(--error-page-text-color);
+  width: 100%;
+  min-height: 100dvh;
+
+  .title {
+    margin-top: 20px;
+    text-align: center;
+    @include subtitle-font;
+  }
+
+  .errorCode {
+    @include error-code-font;
+    opacity: 0.2;
+    margin: 40px 20px;
+  }
+
+  .btn {
+    margin-bottom: 50px;
+  }
+}

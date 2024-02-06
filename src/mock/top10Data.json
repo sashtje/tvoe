@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover1.webp",
+    "movieCoverAlt": "Моё прекрасное несчастье, обложка"
+  },
+  {
+    "id": "2",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover2.jpg",
+    "movieCoverAlt": "Красное уведомление, обложка"
+  },
+  {
+    "id": "3",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover3.jpg",
+    "movieCoverAlt": "Ведьмак, обложка"
+  },
+  {
+    "id": "4",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover4.jpg",
+    "movieCoverAlt": "Джон Уик 4, обложка"
+  },
+  {
+    "id": "5",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover5.jpg",
+    "movieCoverAlt": "Дамбо, обложка"
+  },
+  {
+    "id": "6",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover6.jpg",
+    "movieCoverAlt": "Кот в сапогах. Последнее желание, обложка"
+  },
+  {
+    "id": "7",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover7.jpg",
+    "movieCoverAlt": "Рапунцель. Запутанная история, обложка"
+  },
+  {
+    "id": "8",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover8.jpg",
+    "movieCoverAlt": "Mummies, обложка"
+  },
+  {
+    "id": "9",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover9.jpg",
+    "movieCoverAlt": "Уэнздей, обложка"
+  },
+  {
+    "id": "10",
+    "movieHref": "/p/wednesday",
+    "movieCoverSrc": "/main-page/top10/cover10.jpg",
+    "movieCoverAlt": "Удача, обложка"
+  }
+]
